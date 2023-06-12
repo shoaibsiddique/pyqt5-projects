@@ -17,6 +17,7 @@ class Ui_Form(object):
         Form.resize(548, 376)
         self.connect_Button = QtWidgets.QPushButton(Form)
         self.connect_Button.setGeometry(QtCore.QRect(50, 70, 81, 31))
+        self.connect_Button.setCheckable(True)
         self.connect_Button.setObjectName("connect_Button")
         self.baud_text = QtWidgets.QLabel(Form)
         self.baud_text.setGeometry(QtCore.QRect(150, 40, 81, 16))
